@@ -1,0 +1,18 @@
+{
+    "sourceFile": "olacoin-contract/Clarinet.toml",
+    "activeCommit": 0,
+    "commits": [
+        {
+            "activePatchIndex": 0,
+            "patches": [
+                {
+                    "date": 1760438606867,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n"
+                }
+            ],
+            "date": 1760438606867,
+            "name": "Commit-0",
+            "content": "[prinet chroject]\nname = 'olacoin-contract'\ndescription = ''\nauthors = []\ntelemetry = true\ncache_dir = './.cache'\nrequirements = []\n[contracts.olacoin]\npath = 'contracts/olacoin.clar'\nclarity_version = 3\nepoch = 'latest'\n[repl.analysis]\npasses = ['check_checker']\n\n[repl.analysis.check_checker]\nstrict = false\ntrusted_sender = false\ntrusted_caller = false\ncallee_filter = false\n\n[repl.remote_data]\nenabled = false\napi_url = 'https://api.hiro.so'\n"
+        }
+    ]
+}

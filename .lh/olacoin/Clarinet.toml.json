@@ -1,0 +1,22 @@
+{
+    "sourceFile": "olacoin/Clarinet.toml",
+    "activeCommit": 0,
+    "commits": [
+        {
+            "activePatchIndex": 1,
+            "patches": [
+                {
+                    "date": 1760438570194,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n"
+                },
+                {
+                    "date": 1760438575920,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,5 +1,5 @@\n-[rinet checkproject]\n+[project]\n name = 'olacoin-contract'\n description = ''\n authors = []\n telemetry = true\n"
+                }
+            ],
+            "date": 1760438570194,
+            "name": "Commit-0",
+            "content": "[rinet checkproject]\nname = 'olacoin-contract'\ndescription = ''\nauthors = []\ntelemetry = true\ncache_dir = './.cache'\nrequirements = []\n[contracts.olacoin]\npath = 'contracts/olacoin.clar'\nclarity_version = 3\nepoch = 'latest'\n[repl.analysis]\npasses = ['check_checker']\n\n[repl.analysis.check_checker]\nstrict = false\ntrusted_sender = false\ntrusted_caller = false\ncallee_filter = false\n\n[repl.remote_data]\nenabled = false\napi_url = 'https://api.hiro.so'\n"
+        }
+    ]
+}
